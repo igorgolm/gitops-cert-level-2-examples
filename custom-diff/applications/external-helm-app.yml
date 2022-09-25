@@ -29,7 +29,7 @@ spec:
       - /data/my-username
       - /data/my-password
 
-    - group: ""
+    - group: apps
       kind: Deployment
       jsonPointers:
-      - /metadata/creation
+      - /metadata/annotations/creation
